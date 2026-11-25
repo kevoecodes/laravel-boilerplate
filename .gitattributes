@@ -1,0 +1,16 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+# Windows scripts keep CRLF so PowerShell / cmd run them cleanly
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
